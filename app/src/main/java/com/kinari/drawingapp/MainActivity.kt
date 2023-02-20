@@ -1,14 +1,12 @@
 package com.kinari.drawingapp
 
 import android.app.Dialog
-import android.media.Image
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.LinearLayout
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
 
@@ -79,7 +77,6 @@ class MainActivity : AppCompatActivity() {
             )
 
             mImageButtonCurrentPaint = view
-
         }
     }
 }
